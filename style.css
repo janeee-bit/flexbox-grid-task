@@ -1,0 +1,94 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+/*nav styling*/
+nav {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+span {
+  color: hsl(179, 100%, 13%);
+}
+.a {
+  color: hsl(184, 100%, 22%);
+}
+/* div container styling*/
+.container {
+  width: 50%;
+  margin: 9% auto;
+  display: flex;
+  align-items: center;
+  flex-basis: 0;
+}
+h3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulder Display" cursive;
+  font-weight: 700;
+}
+/*styings each div element*/
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 35px;
+  border-radius: 5px 0 0 5px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 35px;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 35px;
+  border-radius: 0 5px 5px 0;
+}
+/* insert fonts*/
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+/*botton stylings begins here*/
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 6px;
+  border-radius: 50px;
+  width: 70%;
+  margin-top: 50%;
+  cursor: pointer;
+}
+.btn-sedan {
+  color: hsl(31, 77%, 52%);
+}
+.btn-sedan:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+}
+.btn-suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+.btn-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
